@@ -7,7 +7,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document("food")
 public class Food {
-    @Id
     private long foodID;
     //@Column(nullable = false)
     private String restaurantID;
