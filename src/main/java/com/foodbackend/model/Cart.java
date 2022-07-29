@@ -7,7 +7,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document("cart")
 public class Cart {
-    @Id
     private long cartId;
     private String userID;
     private  String restaurantID;
